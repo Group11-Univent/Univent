@@ -1,0 +1,18 @@
+h1
+{
+    background-color:#393E41;
+    color: #E94F37;
+    padding: 3%;
+    margin:0%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    padding-right: 90%;
+}
+
+p
+{
+    background-color:#f6f7eb;
+    padding-top: 120px;
+}
