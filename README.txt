@@ -10,7 +10,7 @@ Team Name: Univent
 Team Member Names(GitHub username):
 
 Joshua Caron(jcaro033) - 300449328
-Abaoyowa Amoye(Twilight Aspect) - 300269608
+Abaoyowa Amoye(TwilightAspect) - 300269608
 
 
 
