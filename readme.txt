@@ -7,9 +7,11 @@ UNIVENT
 Team Name: Univent
 
 
-Team Member Names:
+Team Member Names(GitHub username):
 
-Joshua Caron - 300449328
+Joshua Caron(jcaro033) - 300449328
+Abaoyowa Amoye(Twilight Aspect) - 300269608
+
 
 
 Product Name: Univent
