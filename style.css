@@ -16,3 +16,16 @@ p
     background-color:#f6f7eb;
     padding-top: 120px;
 }
+
+.center
+{
+
+    text-align: center;
+    width:50%;
+    border:4px;
+    border-color: black;
+    border-style:double;
+    padding:200px 15px;
+
+    margin: 10% auto 10%;
+}
