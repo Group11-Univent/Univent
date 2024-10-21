@@ -29,3 +29,11 @@ p
 
     margin: 10% auto 10%;
 }
+
+.button {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:none;
+    background-color:offwhite;
+}
