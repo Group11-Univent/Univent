@@ -30,10 +30,87 @@ p
     margin: 10% auto 10%;
 }
 
-.button {
-    width:100px;
-    height:100px;
+
+
+/* BUTTON STUFF I JUST CANT ALLIGN THE ICONS */
+.wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans serif;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    align-items: center;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0 ,0 ,0.1) ; 
+    transition: all 0.3s ease-out; 
+}
+
+.wrapper .button:hover{
+    width: 225px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    border:none;
-    background-color:offwhite;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+    background: #cd486b;
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+    background: #aaaaaa;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #7289da;
+}
+
+.wrapper .button:nth-child(4):hover .icon{
+    background: #1877F2;
+}
+
+
+.wrapper .button:hover .icon{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+
+.wrapper .button span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.wrapper .button:nth-child(1) span{
+    color: #cd486b;
+}
+
+.wrapper .button:nth-child(2) span{
+    color: #aaaaaa;
+}
+
+.wrapper .button:nth-child(3) span{
+    color: #7289da;
+}
+
+.wrapper .button:nth-child(4) span{
+    color: #1877F2;
 }
