@@ -20,12 +20,20 @@ p
 .center
 {
 
-    text-align: center;
+    text-align:center;
     width:50%;
     border:4px;
     border-color: black;
     border-style:double;
-    padding:200px 15px;
+    height: 400px;
+    padding:20px 15px;
 
     margin: 10% auto 10%;
+}
+
+.featuretitle
+{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 30px;
 }
