@@ -1,7 +1,9 @@
 h1
 {
-    background-color:#393E41;
-    color: #E94F37;
+    font-family: "Poppins", sans-serif;
+
+    background-color:#ffb379;
+    color: #23213D;
     padding: 3%;
     margin:0%;
     position:absolute;
@@ -19,7 +21,7 @@ p
 
 .center
 {
-
+    font-family: "Poppins",sans-serif;
     text-align:center;
     width:50%;
     border:4px;
@@ -28,11 +30,12 @@ p
     height: 400px;
     padding:20px 15px;
 
-    margin: 10% auto 10%;
+    margin: 10% auto 0%;
 }
 
 .featuretitle
 {
+    font-family: "Poppins";
     font-size: 48px;
     font-weight: bold;
     padding-bottom: 30px;
@@ -44,7 +47,7 @@ p
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .wrapper .button{
