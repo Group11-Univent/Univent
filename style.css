@@ -19,7 +19,8 @@ p
     padding-top: 120px;
 }
 
-.center
+/* in the process of fixing style for .feature and sub-styles */
+.features
 {
     font-family: "Poppins",sans-serif;
     text-align:center;
@@ -29,11 +30,23 @@ p
     border-style:double;
     height: 400px;
     padding:20px 15px;
-
     margin: 10% auto 0%;
 }
 
-.featuretitle
+.features .center
+{    
+    font-family: "Poppins",sans-serif;
+
+
+}
+
+.features .right
+{
+    font-family: "Poppins",sans-serif;
+
+}
+
+.feature.title
 {
     font-family: "Poppins";
     font-size: 48px;
