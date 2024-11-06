@@ -109,6 +109,7 @@ button:hover{
 /* BUTTON STUFF I JUST CANT ALLIGN THE ICONS */
 .wrapper{
     margin: 0;
+    position: fixed;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
