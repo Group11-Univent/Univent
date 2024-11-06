@@ -3,18 +3,19 @@ Overall Look and Feel of Univent
 
 We aim to have our website invoke a futurist and minimalist feeling which is why have have few buttons and features on the home page. Specifically a background video advertising our project, our project's goal, and a button leading to pricing
 
-
-
 Colours
 =======
+
 TEXT AND BACKGROUND
 Text: #23213D
 Background: #FFB479
 
 Iconography
 ===========
+
 Icons will be rounded for a softer feel
 
 Typography
 ==========
+
 We are using Poppins from Google Fonts.
