@@ -274,7 +274,7 @@ nav a:hover span{
 }
 
 #team p{
-	width = 100px;
-	height = 100px;
+	width: 100px;
+	height: 100px;
 	text-align-last: center;
 }	
