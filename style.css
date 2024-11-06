@@ -1,17 +1,4 @@
-h1
-{
-    font-family: "Poppins", sans-serif;
-
-    background-color:#ffb379;
-    color: #23213D;
-    padding: 3%;
-    margin:0%;
-    position:absolute;
-    top:0px;
-    left:0px;
-    right:0px;
-    padding-right: 90%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 p
 {
@@ -101,19 +88,88 @@ p
 
 
 
+
+/* Home page style */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://www.uottawa.ca/study/sites/g/files/bhrskd296/files/styles/max_width_l_1470px/public/2021-10/20170905-BF-CAMPUS-SCENIC-001-resized.jpg?itok=GrxZkpxe");
+    background-size: cover;
+    background-position: top;
+}
+.logo{
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+    margin: 0 20px;
+    color: #fff;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #FFB479;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #FFB479;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
 /* BUTTON STUFF I JUST CANT ALLIGN THE ICONS */
 .wrapper{
     margin: 0;
+    position: fixed;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    right: 50px;
+    bottom: 50px;
+    position: absolute;
 }
 
 .wrapper .button{
     display: inline-block;
     height: 60px;
     width: 60px;
-    float: left;
     align-items: center;
     margin: 0 5px;
     overflow: hidden;
@@ -183,3 +239,90 @@ p
 .wrapper .button:nth-child(4) span{
     color: #1877F2;
 }
+
+
+/* NAVIGATION BARD STUFF */
+.navigation {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    word-spacing: 75px;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+
+nav a{
+    position: relative;
+    font-size: 1.1em;
+    color: #333;
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: .5s
+}
+
+nav a:hover{
+    color: #0ef;
+}
+
+nav a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    opacity: 1;
+    transition: .5s;
+
+}
+
+nav a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+
+
+
+
+/*Teams Page*/
+
+#team img{
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
+}
+
+#team table{
+	table-layout: auto
+	height	
+
+}
+
+#team td{
+	width: 33%;
+	vertical-align: top;
+
+}
+
+#team tr{
+	height:500px;
+}
+
+#team p{
+	width: 100px;
+	height: 100px;
+	text-align-last: center;
+}	
