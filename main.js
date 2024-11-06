@@ -1,45 +1,44 @@
-let featurenum = 1;
+let featurenum = 2;
 displayfeature(featurenum);
 
 function changefeature(num)
 {
-    featurenum+=1;
-    displayfeatures(featurenum);
+    displayfeature(featurenum+=num);
 }
 
 function currentfeature(n)
 {
-    displayfeature(featurenum=n)
+    displayfeature(featurenum=n);
 }
 
 function displayfeature(num)
 {
     let i;
-    let slides = document.getElementsByClassName("features slide");
+    let slides = document.getElementsByClassName("slide");
     let dots = document.getElementsByClassName("dot");
 
     // let descs = document.getElementsByClassName("featuredescription");
 
     if (num > slides.length)
     {
-        index = 1;
+        featurenum = 1;
     }
     if (num <1)
     {
-        index = slides.length;
+        featurenum = slides.length;
     }
     
     for (i=0; i<slides.length; i++)
     {
-        slides.style.display = "none";
+        slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) 
     {
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
-    slides[index-1].style.display ="block";
-    dots[slideIndex-1].className += " active";
+    slides[featurenum-1].style.display = "block";
+    dots[featurenum-1].className += " active";
 
 
 }

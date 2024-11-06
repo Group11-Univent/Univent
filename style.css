@@ -22,14 +22,9 @@ p
 }
 
 /* in the process of fixing style for .feature and sub-styles */
-.features
+.slide
 {
-    display:none;
-    /* margin: 10% auto 0%; */
-}
-
-.features .slide
-{    
+    display: none;    
     font-family: "Poppins",sans-serif;
 
 
