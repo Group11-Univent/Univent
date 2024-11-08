@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-p
-{
-
-    padding-top: 120px;
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width:100%;
 }
 
 .feature-container
 {
-    max-width: 1000px;
+    width: 100%;
     position: relative;
     margin: auto;
     font-family: "Poppins",sans-serif;
@@ -18,7 +19,6 @@ p
     border-color: black;
     border-style:double;
     height: 400px;
-    padding:20px 15px;
 }
 
 /* in the process of fixing style for .feature and sub-styles */
@@ -92,6 +92,7 @@ p
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://www.uottawa.ca/study/sites/g/files/bhrskd296/files/styles/max_width_l_1470px/public/2021-10/20170905-BF-CAMPUS-SCENIC-001-resized.jpg?itok=GrxZkpxe");
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
 }
 .logo{
     width: 120px;
@@ -152,7 +153,6 @@ button:hover{
 /* BUTTON STUFF I JUST CANT ALLIGN THE ICONS */
 .wrapper{
     margin: 0;
-    position: fixed;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
@@ -297,7 +297,7 @@ nav a:hover span{
 #team td{
 	width: 33%;
 	vertical-align: top;
-	padding: 25px;
+    padding: 25px;
 }
 #team img{
 	width: 500px;
