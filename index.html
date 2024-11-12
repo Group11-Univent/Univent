@@ -11,6 +11,8 @@
 
 <body style="background-color:#f6f7eb;">
     <header>
+        <img src="images/univent_logo.png" alt="Logo" style="position: absolute; top: 0; left: 0; width: 125px; height: auto;">
+
         <div class="banner">
             <div class="content">
                 <h1>Univent</h1>
@@ -19,12 +21,17 @@
                     <br> this would make events much more accessible and help bolster a university’s culture.
                 </p>
                 <div>
-                    <button type="button"><span></span>WATCH MORE</button>
+                    <button type="button" onclick="openVideo()"><span></span>WATCH MORE</button>
                     <button type="button"><span></span>DOWNLOAD</button>
                 </div>
             </div>
         </div>
     </header>
+    <script>
+        function openVideo() {
+            window.open('video.mp4', '_blank');
+        }
+    </script>
 
     <section class="about">
         <div class="title">
