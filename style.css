@@ -317,6 +317,7 @@ nav a:hover span{
 	margin-right: auto;
 	display: block;
 	border-radius: 25px;
+	box-shadow:10px 10px 5px rgba(0, 0, 0, 0.459);
 }
 
 #team table{
@@ -337,18 +338,13 @@ nav a:hover span{
 	color: #23213D;
 	}
 
-#team div{
-	margin: auto;
-}
-#team div{
-	width: 80%;
-	height: 80%;
-	margin: auto;
-}
+
 
 #team {
-	justify-content: center;
+	justify-content:center;
+    display: flex;
 	background-color: #FFB479;
+	color: #23213D;
 }
 
 #team h2{
@@ -364,4 +360,24 @@ nav a:hover span{
 	width: 100px;
 	height: 100px;
 	margin:center;
+}
+
+#team .navigation {
+    display:block;
+    text-align: center;
+    margin: 5px;
+    color: #23213D;
+}
+
+#team .navigation div {
+    display: block;
+    margin: 0px;
+    line-height: 0;
+
+}
+
+#team .about {
+	width: 80%;
+	height: 80%;
+	margin: 10px;
 }
