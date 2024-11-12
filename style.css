@@ -122,7 +122,7 @@ html, body {
     line-height: 25px;
     font-family: 'poppins', sans-serif;
 }
-button{
+#body header .banner .content div button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -136,7 +136,7 @@ button{
     position: relative;
     overflow: clip;
 }
-span{
+#body header .banner .content div span{
     background: #FFB479;
     height: 100%;
     width: 0;
@@ -147,10 +147,10 @@ span{
     z-index: -1;
     transition: 0.5s;
 }
-button:hover span{
+#body header .banner .content div button:hover span{
     width: 100%;
 }
-button:hover{
+#body header .banner .content div button:hover{
     border: none;
 }
 
@@ -242,7 +242,7 @@ button:hover{
 }
 
 
-/* NAVIGATION BARD STUFF */
+/* NAVIGATION BAR STUFF */
 .navigation {
     margin: 0;
     padding: 0;
@@ -275,7 +275,7 @@ nav a{
 }
 
 nav a:hover{
-    color: #23213D;
+    color: #FFB479;;
 }
 
 nav a span{
@@ -285,7 +285,7 @@ nav a span{
     width: 100%;
     height: 100%;
     z-index: -1;
-    border-bottom: 2px solid #23213D;
+    border-bottom: 2px solid #FFB479;
     border-radius: 15px;
     transform: scale(0) translateY(50px);
     opacity: 1;
@@ -296,6 +296,93 @@ nav a span{
 nav a:hover span{
     transform: scale(1) translateY(0);
     opacity: 1;
+}
+
+/*Download Page*/
+
+ #download-page{
+    font-family: "Poppins", sans-serif;
+    background-color:#fc9c51;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#download-page .download {
+    text-align: center;
+    padding: 40px;
+    background-color: #FFB479 ;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    z-index: 0;
+}
+
+
+#download-pagee .download h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+#download-page .download p {
+    font-size: 1em;
+    margin: 10px 0 30px;
+    color: #D1C4E9;
+}
+
+
+#download-page .get {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 10px; 
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+#download-page .get li {
+    margin: 5px 0;
+    color: #FFFFFF;
+}
+
+
+#download-page .download button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #fc9c51;;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: clip;
+}
+
+#download-page .download button span{
+    background: #fc9c51;;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+#download-page .download button:hover span{
+    width: 100%;
+}
+
+#download-page .download button:hover{
+    border: none;
 }
 
 
