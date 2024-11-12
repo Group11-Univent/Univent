@@ -10,16 +10,18 @@ html, body {
 
 .feature-container
 {
-    width: 100%;
+    
+    width: 50%;
     position: relative;
     margin: auto;
+    margin-top:2%;
     font-family: 'Poppins',sans-serif;
     text-align:center;
     /* width:50%; */
     border:4px;
     border-color: black;
     border-style:double;
-    height: 400px;
+    height: 600px;
 }
 
 /* in the process of fixing style for .feature and sub-styles */
@@ -45,11 +47,23 @@ html, body {
     padding-bottom: 30px;
 } */
 
+.title{
+    font-size:x-large;
+    font-weight: bold;
+    padding: 5%;
+}
+
+.description {
+    font-size: large;
+    margin:auto;
+    text-align:center;
+    width:70%;
+}
 
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 95%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -59,6 +73,10 @@ html, body {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+}
+
+.prev{
+    left:0%;
 }
 
 .dot {
