@@ -1,5 +1,4 @@
-let featurenum = 2;
-displayfeature(featurenum);
+let featurenum = 0;
 
 function changefeature(num)
 {
@@ -39,6 +38,7 @@ function displayfeature(num)
 
     slides[featurenum-1].style.display = "block";
     dots[featurenum-1].className += " active";
+    console.log(featurenum-1);
 
 
 }
