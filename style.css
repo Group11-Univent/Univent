@@ -22,6 +22,8 @@ html, body {
     border-color: black;
     border-style:double;
     height: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* in the process of fixing style for .feature and sub-styles */
@@ -29,7 +31,7 @@ html, body {
 {
     display: none;    
     font-family: 'Poppins',sans-serif;
-
+    
 
 }
 
@@ -67,7 +69,7 @@ html, body {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #23213D;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
