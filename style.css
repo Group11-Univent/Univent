@@ -8,13 +8,14 @@ html, body {
     width:100%;
 }
 
+/* Product Features page styles */
 .feature-container
 {
     
     width: 50%;
     position: relative;
     margin: auto;
-    margin-top:2%;
+    margin-top:4.3%;
     font-family: 'Poppins',sans-serif;
     text-align:center;
     /* width:50%; */
@@ -24,9 +25,14 @@ html, body {
     height: 600px;
     overflow: hidden;
     text-overflow: ellipsis;
+    color:#FFB479;
+    background-color: #423656;
+    /* background:linear-gradient(to bottom,#423656,#23213D); */
+    background:radial-gradient(#423656,#23213D);
+
 }
 
-/* in the process of fixing style for .feature and sub-styles */
+
 .slide
 {
     display: none;    
@@ -35,24 +41,12 @@ html, body {
 
 }
 
-/* .features .right
-{
-    font-family: "Poppins",sans-serif;
-
-} */
-
-/* .feature.title
-{
-    font-family: "Poppins";
-    font-size: 48px;
-    font-weight: bold;
-    padding-bottom: 30px;
-} */
 
 .title{
     font-size:x-large;
     font-weight: bold;
     padding: 5%;
+    
 }
 
 .description {
@@ -69,7 +63,7 @@ html, body {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: #23213D;
+    color: #FFB479;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
