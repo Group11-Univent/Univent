@@ -15,7 +15,7 @@ html, body {
     width: 50%;
     position: relative;
     margin: auto;
-    margin-top:4.3%;
+    margin-top:4.9%;
     font-family: 'Poppins',sans-serif;
     text-align:center;
     /* width:50%; */
@@ -25,10 +25,10 @@ html, body {
     height: 600px;
     overflow: hidden;
     text-overflow: ellipsis;
-    color:#FFB479;
-    background-color: #423656;
+    color:#ffffff;
+    background-color: #FFB479;
     /* background:linear-gradient(to bottom,#423656,#23213D); */
-    background:radial-gradient(#423656,#23213D);
+    background:radial-gradient(#151210b6,#181817db);
 
 }
 
@@ -50,6 +50,7 @@ html, body {
 }
 
 .description {
+    color:#FFB479;
     font-size: large;
     margin:auto;
     text-align:center;
@@ -82,7 +83,7 @@ html, body {
     margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
+    display: none;
     transition: background-color 0.6s ease;
   }
 
