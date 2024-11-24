@@ -497,14 +497,21 @@ nav a:hover span{
     padding: 25px;
 }
 #team img{
+    display: block;
+    object-fit: cover;
 	width: 500px;
 	height: 500px;
-	object-fit: cover;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	border-radius: 25px;
 	box-shadow:10px 10px 5px rgba(0, 0, 0, 0.459);
+}
+
+#team .pannel{
+    position: relative;
+    width:500px;
+   
 }
 
 #team table{
@@ -518,13 +525,29 @@ nav a:hover span{
 }
 
 #team p{
-	width: 500px;
-	height: 100%;
-	text-align-last: center;
-	display: none;
-	color: #23213D;
+    width: 100%;
+    height: 100%;
+	top: -15.5px;
+	Left:0;
+	position:absolute;	
+	color: whitesmoke;
+    background-image: linear-gradient(#00000054,#000000d0);
+    justify-content: center;
+    vertical-align:50%;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.5s;
+    
 	}
 
+#team p:hover{
+    opacity: 1;
+
+
+}
 
 
 #team {
@@ -557,11 +580,14 @@ nav a:hover span{
     color: #23213D;
     background-color: rgba(0, 0, 0, 0.650);
     box-shadow: 0 20px 50px rgba(0,0,0,0.650);
+    z-index: 1;
 }
 
 
-#team .about {
+#team .pannels {
 	width: 80%;
 	height: 80%;
 	margin: 10px;
 }
+
+
