@@ -270,7 +270,7 @@ html, body {
     border: none;
 }
 
-/* BUTTON STUFF I JUST CANT ALLIGN THE ICONS */
+/* BUTTON STUFF */
 .wrapper{
     margin: 0;
     padding: 0;
@@ -278,7 +278,8 @@ html, body {
     font-family: "Poppins", sans-serif;
     right: 50px;
     bottom: 50px;
-    position: absolute;
+    position: fixed;
+    z-index: 1;
 }
 
 .wrapper .button{
@@ -287,7 +288,7 @@ html, body {
     width: 60px;
     align-items: center;
     margin: 0 5px;
-    overflow: clip;
+    overflow: hidden;
     background: whitesmoke;
     border-radius: 50px;
     cursor: pointer;
