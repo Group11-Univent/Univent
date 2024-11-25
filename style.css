@@ -10,6 +10,20 @@ html, body {
 }
 
 /* Product Features page styles */
+
+#features{
+    font-family: "Poppins", sans-serif;
+    background-color:#fc9c51;
+    color: whitesmoke;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+   
+}
+
 .feature-container
 {
     
@@ -17,7 +31,6 @@ html, body {
     position: relative;
     margin: auto;
     margin-top:4.9%;
-    font-family: 'Poppins',sans-serif;
     text-align:center;
     /* width:50%; */
     border:4px;
@@ -30,6 +43,7 @@ html, body {
     background-color: #FFB479;
     /* background:linear-gradient(to bottom,#423656,#23213D); */
     background:radial-gradient(#151210b6,#181817db);
+ 
 
 }
 
@@ -408,10 +422,13 @@ nav a:hover span{
     background-color:#fc9c51;
     color: whitesmoke;
     display: flex;
+    flex: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    flex-direction: column; 
+   
+    
 }
 
 
@@ -423,6 +440,8 @@ nav a:hover span{
     width: 90%;
     max-width: 600px;
     z-index: 0;
+    margin: 200px;
+    
 }
 
 
@@ -590,5 +609,90 @@ nav a:hover span{
 	height: 80%;
 	margin: 10px;
 }
+
+/*FOOTER*/
+
+
+footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 20px;
+    font-family: "Poppins", sans-serif;;
+    width: 100%; 
+    position: relative; 
+    margin-top: auto;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-container .contact-info,
+  .footer-container .support-info,
+  .footer-container .footer-links,
+  .footer-container .newsletter {
+    margin: 10px 0;
+  }
+  
+  .footer-container .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+  }
+  
+  .footer-container .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-container .support-info a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-container .support-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-container .newsletter form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .footer-container .newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    flex: 1;
+  }
+  
+  .footer-container .newsletter button {
+    padding: 10px 20px;
+    background-color: #fff; 
+    color: #000; 
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .footer-container .newsletter button:hover {
+    background-color: #ddd;
+  }
+  
+
+  .trademark {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+  }
 
 
