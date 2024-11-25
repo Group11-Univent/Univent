@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     overflow-x: clip;
     overscroll-behavior: none;
-    scroll-behavior: smooth;
+    
     width:100%;
 }
 
